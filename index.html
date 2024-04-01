@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="titulo-principal">
+        <h1 class="roboto-regular">Lista de tareas</h1>
+    </div>
+    <section class="container">
+        <div class="caja-tareas">
+            <div class="titulo-caja-tareas">
+                <h2 class="roboto-regular">Lista de tareas</h2>
+                <hr>
+                <p>Nueva tarea</p>
+                
+                    <input id="nuevaTarea" class="tarea-realizar"><button id="agregarTarea" class="boton">Agregar</button>
+                
+                <div class="caja-resultado-tareas">
+                    <div class="caja-resultado-tareas-hacer">
+                        <ul>
+                        <li>Total:<span id="cuenta-tareas"></span></li>
+                        <li>Realizadas:<span id="realizadas"></span></li>
+                    </ul>
+                    </div>
+                    <div class="caja-resultado-tareas-hechas">
+                        <div class="caja-tareas-hechas">
+                            <p>ID</p>
+                            <p>Tareas</p>
+                        </div>
+                       <ul id="tareas">
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+
+    </section>
+    <script src="./assets/js/scripts.js"></script>
+</body>
+</html>
